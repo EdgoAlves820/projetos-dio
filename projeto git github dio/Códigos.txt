@@ -1,0 +1,44 @@
+# =====O que vamos Aprender?=====
+
+- Mudar pastas
+- Listar as pastas
+- Criar pastas/arquivos
+- Deletar pastas/arquivos
+
+# =====Comando em máquinas diferentes=====
+
+- Windows   		- Unix
+* cd			* cd
+* dir			* Ls
+* mkdir			* mkdir
+* del/rmdir		* rm -rf
+* tab
+* ctrl + l/ limpar
+
+# ===== O que é um SHA1 =====
+
+A sigla SHA significa (Secure Hash Algorithm ) Algoritmo de hash seguro, é um conjunto
+de funções hash criptográficas projetadas pela NSA (Agência de Segurança Nacional dos EUA).
+
+A encriptação gera um conjunto de characteres identificador de 40 dígitos, é uma forma curta de representar um arquivo.
+
+openssl sha1 => e o nome do arquivo 
+
+# ========= Chaves SSH e Tokens ==========
+
+Chaves SSH => É uma forma de estabelecer uma conexão segura de chaves pública e privada
+comando ultilizados para gerar o par de chaves chaves => ssh-keygen -t ed12345 -C "meu email"
+ls => listar
+ls -a => arquivos ocultos
+git init => inicializa o conceito repositório
+git config --list => configurações
+git add => move o arquivo
+mv => comando para mover
+git add * => ele pega tudo que foi modificado  e add para o staged para depois commitar
+git config --global -- unset user.email => para refazer um novo e-amil
+git config --global -- unset user.name => para refazer um novo nome
+git remote add origin => 
+git remote -v => lista as listas de repositórios cadastrados
+git push origin master => empurra o código do Git para o GitHub
+git pull origin master => puxa o código que está no GitHub para o Git
+git clone => para clonar o arquivo do GitHub
